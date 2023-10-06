@@ -1,2 +1,4 @@
-20:11:43.797 INFO  AUTOMATION - Navigating to Google
-20:11:44.753 INFO  AUTOMATION - Waiting 3 seconds
+20:12:46.879 INFO  AUTOMATION - Go to ultimatega page
+20:12:47.598 INFO  AUTOMATION - Waiting 3 seconds
+20:12:50.603 INFO  AUTOMATION - Getting for the actual URL 
+20:12:50.615 INFO  AUTOMATION - Verifying that both URL are the same

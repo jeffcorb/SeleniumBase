@@ -1,10 +1,15 @@
-20:11:42.304 DEBUG AUTOMATION - on suite starts
-20:11:42.326 DEBUG AUTOMATION - Init Driver
-20:11:43.628 DEBUG AUTOMATION - Maximize Window
-20:11:43.747 DEBUG AUTOMATION - Delete Cookies
-20:11:43.789 DEBUG AUTOMATION - on test start
-20:11:43.797 INFO  AUTOMATION - Navigating to Google
-20:11:44.753 INFO  AUTOMATION - Waiting 3 seconds
-20:11:47.780 DEBUG AUTOMATION - on test success
-20:11:47.782 DEBUG AUTOMATION - Killing Driver
-20:11:52.920 DEBUG AUTOMATION - on suite finish
+20:12:45.284 DEBUG AUTOMATION - on suite starts
+20:12:45.286 DEBUG AUTOMATION - Deleting Screenshot Folder
+20:12:45.294 DEBUG AUTOMATION - Deleting Allure results folder
+20:12:45.329 DEBUG AUTOMATION - Init Driver
+20:12:46.707 DEBUG AUTOMATION - Maximize Window
+20:12:46.822 DEBUG AUTOMATION - Delete Cookies
+20:12:46.869 DEBUG AUTOMATION - on test start
+20:12:46.879 INFO  AUTOMATION - Go to ultimatega page
+20:12:47.598 INFO  AUTOMATION - Waiting 3 seconds
+20:12:50.603 INFO  AUTOMATION - Getting for the actual URL 
+20:12:50.615 INFO  AUTOMATION - Verifying that both URL are the same
+20:12:50.635 DEBUG AUTOMATION - on test failure
+20:12:50.636 DEBUG AUTOMATION - Taking Screenshot
+20:12:50.814 DEBUG AUTOMATION - Killing Driver
+20:12:50.928 DEBUG AUTOMATION - on suite finish

@@ -15,7 +15,7 @@ import org.testng.asserts.SoftAssert;
 
 public class BaseTest {
 
-    protected WebDriver driver;
+    protected static WebDriver driver;
     protected SoftAssert softAssert;
     protected final String regression = "regression";
     protected final String smoke = "smoke";
@@ -39,5 +39,9 @@ public class BaseTest {
     public void tearDownMaster() {
         Logs.debug("Killing Driver");
         driver.quit();
+    }
+
+    public static WebDriver getDriver() {
+        return driver;
     }
 }
