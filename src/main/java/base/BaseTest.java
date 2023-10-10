@@ -1,21 +1,21 @@
 package base;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import utilities.Logs;
 import listeners.SuiteListeners;
 import listeners.TestListeners;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Listeners;
 import org.testng.asserts.SoftAssert;
+import utilities.Logs;
 
 @Listeners({SuiteListeners.class, TestListeners.class})
 
 public class BaseTest {
 
-    protected WebDriver driver;
+    protected static WebDriver driver;
     protected SoftAssert softAssert;
     protected final String regression = "regression";
     protected final String smoke = "smoke";
@@ -39,5 +39,9 @@ public class BaseTest {
     public void tearDownMaster() {
         Logs.debug("Killing Driver");
         driver.quit();
+    }
+
+    public static WebDriver getDriver() {
+        return driver;
     }
 }
