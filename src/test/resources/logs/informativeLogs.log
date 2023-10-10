@@ -1,4 +1,0 @@
-19:25:05.589 INFO  AUTOMATION - Go to ultimatega page
-19:25:07.294 INFO  AUTOMATION - Waiting 3 seconds
-19:25:10.300 INFO  AUTOMATION - Getting for the actual URL 
-19:25:10.308 INFO  AUTOMATION - Verifying that both URL are the same
