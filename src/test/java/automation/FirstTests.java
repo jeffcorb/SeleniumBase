@@ -16,7 +16,7 @@ public class FirstTests extends BaseTest {
         AutomationUtilities.automationSleep(3000);
     }
 
-    @Test(groups = regression)
+    @Test(groups = {regression, smoke})
     public void newTest() {
         Logs.info("Go to ultimatega page");
         final var url = "https://ultimateqa.com/automation";
@@ -29,7 +29,7 @@ public class FirstTests extends BaseTest {
         final var currentURL = driver.getCurrentUrl();
 
         Logs.info("Verifying that both URL are the same");
-        Assert.assertEquals("url", currentURL);
+        Assert.assertEquals(url, currentURL);
     }
 
     @Test(groups = regression)
