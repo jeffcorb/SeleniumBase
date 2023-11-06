@@ -10,10 +10,10 @@
         <listener class-name="listeners.TestListeners"/>
         <listener class-name="listeners.SuiteListeners"/>
     </listeners>
-
-    <test name="automation">
+    
+    <test name="saucedemo">
         <packages>
-            <package name="automation"/>
+            <package name="saucedemo"/>
         </packages>
     </test>
 </suite>

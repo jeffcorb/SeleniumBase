@@ -7,7 +7,7 @@ import utilities.AutomationUtilities;
 import utilities.Logs;
 
 public class FirstTests extends BaseTest {
-    @Test(groups = regression)
+    @Test
     public void basicTest() {
         Logs.info("Navigating to Google");
         driver.get("https://www.google.com/");
@@ -16,7 +16,7 @@ public class FirstTests extends BaseTest {
         AutomationUtilities.automationSleep(3000);
     }
 
-    @Test(groups = {regression, smoke})
+    @Test
     public void newTest() {
         Logs.info("Go to ultimatega page");
         final var url = "https://ultimateqa.com/automation";
@@ -32,7 +32,7 @@ public class FirstTests extends BaseTest {
         Assert.assertEquals(url, currentURL);
     }
 
-    @Test(groups = regression)
+    @Test
     public void secondTest() {
 
         Logs.info("Go to ultimatega page");
